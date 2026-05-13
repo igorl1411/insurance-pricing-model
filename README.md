@@ -15,7 +15,7 @@ Projekt przedstawia pełną ścieżkę analityczną budowy silnika taryfikacyjne
 ## Główne wnioski z analizy
 Wizualizacja szkodowości względem wieku wyraźnie wskazuje na istnienie dwóch odseparowanych segmentów ryzyka, gdzie kluczowym czynnikiem podbijającym koszty jest **palenie tytoniu**.
 
-![Zależność kosztów od wieku i palenia](wykres_kosztow.png)
+!(wykres_kosztow.png)
 
 ## Wyniki modelowania i optymalizacji
 
