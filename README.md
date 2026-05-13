@@ -1,4 +1,4 @@
-# insurance-pricing-model
+# Insurance-pricing-model
 
 Projekt przedstawia pełną ścieżkę analityczną budowy silnika taryfikacyjnego na podstawie historycznych danych o szkodowości (Medical Cost Dataset z Kaggle). Celem jest wycena ryzyka i kalkulacja składek dla nowych klientów.
 
