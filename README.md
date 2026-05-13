@@ -23,7 +23,7 @@ Wizualizacja szkodowości względem wieku wyraźnie wskazuje na istnienie dwóch
 * Zidentyfikowano wagi ryzyka: z każdym rokiem życia składka rośnie bazowo o ok. 259 USD, a status palacza generuje stałą zwyżkę o ponad 23 800 USD.
 * **Problem:** Diagnostyka reszt ujawniła zjawisko heteroskedastyczności (błędy rosnące wraz z ceną polisy) oraz niedoszacowanie ekstremalnie drogich szkód (grube ogony na wykresie Q-Q). Model łamał założenia estymatora BLUE.
 
-![4 wykresy].(model1.png)
+(model1.png)
 
 ### 2. Model Ulepszony (Log-Lin z interakcją)
 * Zastosowano logarytm naturalny na zmiennej objaśnianej `log(charges)` oraz wprowadzono efekt synergii `bmi * smoker`.
