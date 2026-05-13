@@ -10,7 +10,7 @@ Projekt przedstawia pełną ścieżkę analityczną budowy silnika taryfikacyjne
 ## Technologie i narzędzia
 * **Język:** R
 * **Biblioteki:** `tidyverse` (`dplyr` do manipulacji danymi, `readr` do importu, `ggplot2` do wizualizacji)
-* **Podejście:** Regresja Liniowa (MNK), Transformacje Log-Liniowe, Diagnostyka Gaussa-Markowa (BLUE)
+* **Podejście:** Regresja Liniowa (MNK), Transformacje Log-Liniowe, Diagnostyka Gaussa-Markowa (BLUE), Rozkład Gamma
 
 ## Główne wnioski z analizy
 Wizualizacja szkodowości względem wieku wyraźnie wskazuje na istnienie dwóch odseparowanych segmentów ryzyka, gdzie kluczowym czynnikiem podbijającym koszty jest **palenie tytoniu**.
