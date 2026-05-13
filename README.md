@@ -32,5 +32,7 @@ Wizualizacja szkodowości względem wieku wyraźnie wskazuje na istnienie dwóch
 
 ![4 wykresy](model2.png)
 
-## Kierunek dalszego rozwoju
-Obecność sztywnej dolnej granicy składek sprawia, że reszty w dolnych rejestrach układają się liniowo. Pełna optymalizacja taryfy dla tego portfela w warunkach komercyjnych wymagałaby przejścia z klasycznej regresji na **Uogólnione Modele Liniowe (GLM)**.
+## 3. Model Docelowy (GLM - Rozkład Gamma)
+* Wdrożono rynkowy standard taryfikacji ubezpieczeniowej (Uogólniony Model Liniowy) z logarytmiczną funkcją łączącą family = Gamma(link = "log").
+* **Rezultat:** Prawidłowo odwzorowano prawostronną skośność rozkładu kosztów oraz wyeliminowano problem sztucznych trendów w dolnych rejestrach reszt, typowy dla klasycznej metody MNK.
+![4 wykresy](modelgamma.png)
