@@ -36,3 +36,4 @@ Wizualizacja szkodowości względem wieku wyraźnie wskazuje na istnienie dwóch
 * Wdrożono rynkowy standard taryfikacji ubezpieczeniowej (Uogólniony Model Liniowy) z logarytmiczną funkcją łączącą family = Gamma(link = "log").
 * **Rezultat:** Prawidłowo odwzorowano prawostronną skośność rozkładu kosztów oraz wyeliminowano problem sztucznych trendów w dolnych rejestrach reszt, typowy dla klasycznej metody MNK.
 ![4 wykresy](modelgam.png)
+* **MAE:** Zmierzono dokładność predykcyjną taryfikatora za pomocą metryki MAE (Mean Absolute Error). Model myli się średnio o 4094 USD na pojedynczej polisie, co daje zarządowi czytelną miarę precyzji wyceny ryzyka w portfelu.
